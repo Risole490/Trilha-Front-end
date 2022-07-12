@@ -1,0 +1,52 @@
+.filtro-books {
+    display: flex;
+}
+
+.filtro-books h1 {
+    flex-grow: 1;
+}
+
+.filtrar {
+    display: flex;
+    column-gap: 20px;
+}
+
+.books-filtrar {
+    display: flex;
+    flex-direction: column;
+}
+
+.products {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px 20px;
+    justify-content: center;
+    width: 1321px;
+    height: 1112px;
+    margin-left: 30%;
+}
+
+.product-card {
+    background-color: #c6d8f0;
+    flex-basis: 300px;
+    border-radius: 10px;
+}
+
+.product-image img {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.product-info {
+    text-align: center;
+    padding: 5px;
+}
+
+button {
+    height: 35px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid;
+}

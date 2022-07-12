@@ -1,0 +1,26 @@
+body {
+    margin: auto;
+}
+
+.blog-container {
+    background-color: #fffafa;
+    width: 70%;
+    margin: 0px auto 0px auto;
+}
+
+h1 {
+    font-family: Montserrat;
+}
+
+.blog-container .date {
+    color: #008080;
+    font-family: Roboto;
+}
+
+.blog-container .post-content {
+    font-family: Open Sans;
+}
+
+.blog-container .post {
+    padding: 25px 50px 25px 50px;
+}

@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    border: 2px solid red;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px auto 200px; 
+    gap: 16px;
+    height: 800px;
+    justify-items: end;
+    align-items: stretch;
+}
+
+.grid-item {
+    background: rgb(0 0 255 / 14%);
+    border: 2px solid blue;
+}
