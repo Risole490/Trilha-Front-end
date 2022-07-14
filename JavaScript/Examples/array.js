@@ -15,8 +15,7 @@ let pendantPlatform = hitchedSpaceships.findIndex(currentSpaceship => { return c
 // percorre o array hitchedSpaceships, acessa os subarrays até achar o primeiro que tiver o 2 index com o valor "false" e retorna o número do index do array.
 
 let upcasedSpaceships = hitchedSpaceships.map(currentSpaceship => {
-    let upcased = currentSpaceship[0].toUpperCase()
-    return upcased
+    return currentSpaceship[0].toUpperCase()
 })
 // percorre o array hitchedSpaceships, acessa os subarrays no index 0 e deixa toda a string em caps lock. Retorna para a variável upcased o valor em caps lock, e armazena no upcasedSpaceships para ir para a proxima subarray.
 
