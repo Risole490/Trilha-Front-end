@@ -12,16 +12,6 @@ const quad = getMultiplier(4)
 
 console.log(double(9))
 
-
-
-
-
-
-
-
-
-
-
 function doubleVelocity(velocity, printer) { // 2
     console.log("Entrei em doubleVelocity") // 3
     let newVelocity = velocity*2 // 4

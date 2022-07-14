@@ -34,3 +34,4 @@ let spaceshipVelocity = 150
 slowDown(spaceshipVelocity, velocity => {
     console.log("Estamos a "+ velocity +" km/s")
 })
+
